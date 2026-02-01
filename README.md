@@ -7,6 +7,34 @@ Sistem voting berbasis blockchain untuk pemilihan Ketua HIMA Informatika, dibang
 ![React](https://img.shields.io/badge/React-19.2.0-blue)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.0-black)
 
+## Daftar Isi
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Instalasi & Menjalankan Aplikasi](#instalasi--menjalankan-aplikasi)
+  - [Clone Repository](#1-clone-repository)
+  - [Setup Backend](#2-setup-backend)
+  - [Setup Frontend](#3-setup-frontend)
+  - [Buka Aplikasi di Browser](#4-buka-aplikasi-di-browser)
+- [Deploy Smart Contract (Wajib Dilakukan)](#deploy-smart-contract-wajib-dilakukan)
+  - [Opsi 1: Menggunakan Remix IDE](#opsi-1-menggunakan-remix-ide-recommended---mudah)
+  - [Opsi 2: Menggunakan Hardhat](#opsi-2-menggunakan-hardhat-advanced)
+- [Update Contract Address di Frontend](#update-contract-address-di-frontend)
+- [Customization - Mengubah Nama Paslon](#customization--mengubah-nama-paslon)
+- [Struktur Project](#struktur-project)
+- [API Endpoints](#api-endpoints)
+- [Smart Contract Functions](#smart-contract-functions)
+- [Environment Variables](#environment-variables)
+- [FAQ](#faq)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
+- [Links & Resources](#links--resources)
+
+---
+
 ## Features
 
 - Voting berbasis blockchain (transparan & tidak dapat dimanipulasi)
@@ -52,8 +80,8 @@ Sebelum memulai, pastikan Anda sudah menginstall:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/web3-voting-dapp.git
-cd web3-voting-dapp
+git clone https://github.com/XsafiD/UAS-web3-dApp-voting.git
+cd UAS-web3-dApp-voting
 ```
 
 ### 2. Setup Backend
